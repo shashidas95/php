@@ -1,0 +1,10 @@
+By the end of this course you will be able to:
+
+Describe networking fundamental concepts.
+Explain Amazon VPC features, benefits, and use cases.
+Discuss how to configure public and private subnets.
+Discuss how to configure route tables to direct traffic in your network.
+Describe how to use Internet gateway and Virtual Private gateway to allow traffic into your network.
+Discuss how to configure security in a VPC using NACLs and security groups.
+Describe types of IP addressing including use and benefits.
+Identify ways to manage your VPC.
