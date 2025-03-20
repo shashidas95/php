@@ -165,21 +165,30 @@
 
 # print(numbers) 
 #+++++++++++++++++++++++++++++++++++
-names = ['John', 'Eva', 'Laura', 'Nick', 'Jack']
+# names = ['John', 'Eva', 'Laura', 'Nick', 'Jack']
 
 # delete the item at index 1
 # del names[1]
 # print(names)
 
 # delete items from index 1 to index 2
-del names[1: 3]
-print(names)
+# del names[1: 3]
+# print(names)
 
 # delete the entire list
 # del names
 
 # Error! List doesn't exist.
 # print(names)
-https://medium.com/@shashidas95/automating-aws-infrastructure-deployment-with-jenkins-and-terraform-197e7d569fe4
+# https://medium.com/@shashidas95/automating-aws-infrastructure-deployment-with-jenkins-and-terraform-197e7d569fe4
 
 
+
+
+def modify_tuple(tupl, elem):
+   num_list = list(tupl)
+   num_list.append(elem)
+   return tuple(num_list)
+  
+new_tuple = modify_tuple((1,2,3), 4)
+print(new_tuple)
